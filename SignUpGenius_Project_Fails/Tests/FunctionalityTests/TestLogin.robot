@@ -11,19 +11,19 @@ TC Succesfully Log in
     [documentation]  This Login attempt should Pass
     [tags]  Should_Pass
 
-    LoginPage.Input Email and Password and Login
+    LoginPage.Input Email and Password and Login  GP
 
 TC Login Fails - Incorrect Password
     [documentation]  This Login attempt should Fail
     [tags]  Should_Fail
 
-    LoginPage.Correct Email and Incorrect Password  testpassword
+    LoginPage.Correct Email and Incorrect Password  testpassword  GP
 
 TC Login Fails - Incorrect Email and Correct Password
     [documentation]  This Login attempt should Fail. Account Doesnt Exist
     [tags]  Should_Fail
 
-    LoginPage.Incorrect Email and Correct Password  wrong@gmail.com
+    LoginPage.Incorrect Email and Correct Password  wrong@gmail.com  GP
 
 TC Login Fails - Incorrect Email Format and Correct Password
     [documentation]  This Login attempt should Fail. Incorrect email format
