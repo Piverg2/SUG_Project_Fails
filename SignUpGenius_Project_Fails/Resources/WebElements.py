@@ -2,7 +2,7 @@
 LoginPageEmailElement="xpath://input[@id='email']"
 LoginPagePasswordElement="xpath://input[@id='pword']"
 LoginPageRememberMeElement="xpath://*[@id='LoginForm']/div/div[5]/div/label"
-LoginPageAccountIconElement="//*[@id='main-nav']/div[1]/div[1]/div"
+LoginPageAccountIconElement="xpath://*[@id='main-nav']/div/div[1]/div"
 LoginPageLoginButtonElement="xpath://input[@id='loginBtnId']"
 LoginPageErrorPopupElement="xpath://body/div[2]/div[1]/div[1]/div[1]"
 
